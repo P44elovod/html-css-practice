@@ -1,0 +1,25 @@
+i {
+    color: blue;
+}
+b {
+    color: red;
+}
+h1 {
+    font-size: 20px;
+}
+h2 {
+    font-size: 15px;
+}
+h1, h2 {
+    color: blue;
+    text-align: center;
+    width: 400px;
+}
+
+p {
+    font: 16px/30px Arial;
+    width: 400px;
+    text-align: justify;
+    text-indent: 40px;
+
+}
