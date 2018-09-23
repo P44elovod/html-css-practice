@@ -1,0 +1,17 @@
+.top {
+    float: left;
+    margin-right: 20px;
+}
+.bot {
+
+    float: right;
+    margin-left: 20px;
+
+}
+
+div{
+    width: 600px;
+    text-align: justify;
+
+
+}

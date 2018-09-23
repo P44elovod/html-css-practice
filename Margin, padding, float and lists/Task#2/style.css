@@ -1,0 +1,10 @@
+
+div {
+
+    border: red solid 1px;
+    border-radius: 10px;
+    width: 700px;
+    padding: 30px;
+    margin: 50px auto;
+    text-align: justify;
+}

@@ -1,0 +1,46 @@
+.first{
+
+list-style-type: square;
+
+}
+
+.second{
+
+list-style-type: circle;
+
+}
+
+
+
+.forth{
+
+list-style-type: none;
+
+
+}
+
+.fifth{
+
+list-style-image: url('li.gif');
+
+}
+
+.numFirst{
+
+
+
+}
+
+.numSecons{
+
+list-style-type: lower-greek;
+
+
+}
+
+.numThird{
+
+list-style-type: upper-alpha;
+
+
+}

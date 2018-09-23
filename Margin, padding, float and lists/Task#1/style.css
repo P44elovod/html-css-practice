@@ -1,0 +1,18 @@
+.topSq {
+
+    border: red 1px solid;
+    margin: 50px 30px;
+    width: 200px;
+    height: 200px;
+
+}
+
+.bottomSq {
+
+    border: 1px solid green;
+    width: 200px;
+    margin-left: 30px;
+    text-align: justify;
+    padding: 30px;
+
+}
