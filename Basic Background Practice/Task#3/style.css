@@ -1,0 +1,19 @@
+body{
+
+    background: url("fon1.jpg") fixed;
+
+
+}
+h1, p{
+
+    color: black;
+
+}
+
+p {
+
+  width: 500px;
+    text-align: justify;
+    font-weight: bold;
+
+}
