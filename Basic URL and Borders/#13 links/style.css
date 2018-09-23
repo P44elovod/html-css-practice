@@ -1,0 +1,33 @@
+a:link.blue, a:visited.blue{
+    text-decoration: none;
+    color: blue;
+}
+a:hover.blue {
+
+    text-decoration: underline;
+    color: green;
+
+}
+a:link.red, a:visited.red{
+    text-decoration: underline;
+    color: red;
+}
+a:hover.red{
+
+    text-decoration: line-through;
+    color: blue;
+
+
+}
+a:link.black, a:visited.black {
+
+    text-decoration: none;
+    color: black;
+
+}
+a:hover.black{
+
+    text-decoration: overline;
+    color: red;
+
+}

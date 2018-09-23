@@ -1,0 +1,67 @@
+.task6{
+
+    width: 200px;
+    height: 200px;
+    border: red solid 1px;
+
+}
+
+.task7{
+
+    width: 500px;
+    height: 200px;
+    border: blue dotted 1px;
+
+}
+
+.task8{
+
+    width: 100px;
+    height: 100px;
+    border: green dashed 1px;
+
+}
+
+.task9{
+
+    width: 500px;
+    height: 200px;
+    border-top: blue 1px solid;
+    border-bottom: red 1px solid;
+    border-left: black 1px solid;
+    border-right: black 1px solid;
+    border-radius: 20px;
+
+}
+
+.task10{
+
+    width: 300px;
+    height: 300px;
+    border: red dashed 1px;
+    border-radius: 10px 30px;
+
+}
+
+
+.task11{
+    width: 300px;
+    height: 300px;
+    border: 1px dotted green;
+    border-radius: 10px 30px 50px 70px;
+
+
+
+
+}
+
+.task12{
+
+
+width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: red 1px solid;
+
+
+}
