@@ -1,5 +1,7 @@
 
-div {
+
+
+.mainContent {
 
     border: red solid 1px;
     border-radius: 10px;
@@ -7,4 +9,10 @@ div {
     padding: 30px;
     margin: 50px auto;
     text-align: justify;
+}
+.bottomLink {
+
+text-align: right;
+
+
 }
