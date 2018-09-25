@@ -7,6 +7,7 @@ margin: 0px;
 p {
 
 margin: 10px 0px;
+font: 13px/27px Arial;
 
 }
 
@@ -15,6 +16,14 @@ margin: 10px 0px;
 width: 700px;
 margin: 0px auto ;
 text-align: justify
+
+}
+
+img {
+
+float: left;
+margin: 7px 10px 0px 0px;
+border: 1px solid black;
 
 }
 
