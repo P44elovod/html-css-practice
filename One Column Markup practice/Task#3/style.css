@@ -1,6 +1,38 @@
-.wrapper {
+.wrapper{
 
 width: 700px;
-border: 1px solid black
+margin: 10px auto;
+border: 1px solid black;
+}
+
+.content {
+
+margin: 0px 10px;
+
+}
+
+
+h1, h2 {
+
+text-align: center;
+margin-top: 0px;
+
+}
+
+
+
+p {
+
+font: 13px/27px Arial;
+text-indent: 50px;
+text-align: justify;
+
+}
+
+h2 a:link, h2 a:visited, a:link.more, a:visited.more {
+
+color: #E7458D
+text-decoration
+
 
 }
