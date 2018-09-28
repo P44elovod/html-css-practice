@@ -1,118 +1,352 @@
 ul {
 
-margin: 0px;
-padding: 0px;
+    margin: 0px;
+    padding: 0px;
 
 }
 
-.menu1 ul{
+.menu1 ul {
 
-list-style-position: inside;
+    list-style-position: inside;
 
 }
 .menu1 li {
 
-color: blue;
+    color: blue;
 
 }
-.menu1 a:link, menu1 a:visited{
+.menu1 a:link, menu1 a:visited {
 
-text-decoration: none;
-font: 13px Arial;
+    text-decoration: none;
+    font: 13px Arial;
 }
 .menu1 a:hover {
 
-text-decoration: underline;
-color: red;
+    text-decoration: underline;
+    color: red;
 
 }
 
-
 .menu2 ul {
 
-list-style-type: none;
-width: 200px;
+    list-style-type: none;
+    width: 200px;
 
 }
 .menu2 li {
 
-margin-bottom: 5px;
+    margin-bottom: 5px;
 
 }
 .menu2 a:link, .menu2 a:visited {
 
-color: blue;
-text-decoration: none;
-font: 13px Arial;
-display: block;
-border: 1px solid blue;
-line-height: 30px;
-padding: 0px 5px;
+    color: blue;
+    text-decoration: none;
+    font: 13px Arial;
+    display: block;
+    border: 1px solid blue;
+    line-height: 30px;
+    padding: 0px 5px;
 
 }
 .menu2 a:hover {
-font-weight: bold;
+    font-weight: bold;
 
 }
 
 .menu3 ul {
 
-list-style-type: none;
-width: 200px;
+    list-style-type: none;
+    width: 200px;
 
 }
 .menu3 li {
 
-margin-bottom: 5px;
+    margin-bottom: 5px;
 
 }
 .menu3 a:link, .menu3 a:visited {
 
-color: white;
-text-decoration: none;
-font: 13px Arial;
-display: block;
-border: 1px solid black;
-background: black;
-line-height: 30px;
-padding: 0px 5px;
-font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font: 13px Arial;
+    display: block;
+    border: 1px solid #484848;
+    background: #484848;
+    line-height: 30px;
+    padding: 0px 5px;
+    font-weight: bold;
 
 }
 .menu3 a:hover {
 
-background: white;
-color: black;
+    background: white;
+    color: black;
 
 }
 
 .menu4 ul {
 
-list-style-type: none;
-width: 200px;
+    list-style-type: none;
+    width: 200px;
 
 }
 .menu4 li {
 
-margin-bottom: 5px;
+    margin-bottom: 5px;
 
 }
 .menu4 a:link, .menu4 a:visited {
 
-color: white;
-text-decoration: none;
-font: 13px Arial;
-display: block;
-border: 1px solid #0081E7;
-background-color: #0081E7;
-line-height: 30px;
-padding: 0px 5px;
-font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font: 13px Arial;
+    display: block;
+    border: 1px solid #0081E7;
+    background-color: #0081E7;
+    line-height: 30px;
+    padding: 0px 5px;
+    font-weight: bold;
 
 }
 .menu4 a:hover, .menu4 a.active {
 
-background: white url("blue.png") no-repeat 90% center;
-color: blue;
+    background: white url("blue.png") no-repeat 90% center;
+    color: blue;
 
 }
+
+.menu5 ul {
+
+    list-style-position: inside;
+
+}
+.menu5 li {
+
+    color: blue;
+    float: left;
+    border: 1px black solid;
+    padding: 5px;
+    margin-right: 4px;
+    list-style-type: none;
+}
+.menu5 a:link, menu6 a:visited {
+
+    text-decoration: none;
+    font: 13px Arial;
+}
+.menu5 a:hover {
+
+    text-decoration: none;
+    color: red;
+
+}
+.clearfix {
+
+    clear: both;
+
+}
+
+.menu6 a {
+    display: block;
+    padding: 5px;
+
+}
+.menu6 ul {
+
+    list-style-position: inside;
+
+}
+.menu6 li {
+
+    color: blue;
+    display: inline-block;
+    border: 1px black solid;
+
+}
+.menu6 a:link, menu6 a:visited {
+
+    text-decoration: none;
+    font: 13px Arial;
+}
+.menu6 a:hover, .menu6 a.active {
+    background-color: #484848;
+
+    text-decoration: none;
+    color: white;
+
+}
+
+.menu7 a {
+    display: block;
+    padding: 5px;
+
+}
+.tickets{
+
+background: url("1.png") top center no-repeat;
+
+}
+.tickets:hover{
+
+background: url("1-h.png") top center no-repeat;
+
+}
+.charter{
+
+background: url("2.png") top center no-repeat;
+
+}
+.charter:hover{
+
+background: url("2-h.png") top center no-repeat;
+
+}
+.train{
+
+background: url("3.png") top center no-repeat;
+
+}
+.train:hover{
+
+background: url("3-h.png") top center no-repeat;
+
+}
+.hotels{
+
+background: url("4.png") top center no-repeat;
+
+}
+.hotels:hover{
+
+background: url("4-h.png") top center no-repeat;
+
+}
+.tur {
+
+    background: url("5.png") top center no-repeat;
+
+}
+.tur:hover{
+
+    background: url("5-h.png") top center no-repeat;
+
+}
+.menu7 a {
+    display: block;
+    padding-top: 30px;
+
+}
+.menu7 ul {
+
+    list-style-position: inside;
+
+}
+.menu7 li {
+
+    color: blue;
+    display: inline-block;
+    min-width: 80px;
+    text-align: center;
+
+}
+.menu7 a:link, menu7 a:visited {
+
+    color: #CBCBCB;
+    text-decoration: none;
+}
+.menu7 a:hover, .menu7 a:visited {
+
+    text-decoration: none;
+    color: #039CFF;
+
+}
+
+
+.menu8{
+
+    background-color: #FC9D00;
+}
+.menu8 a {
+    display: block;
+    padding: 5px;
+
+
+}
+.menu8 ul {
+
+    margin-left: 20px;
+    list-style-position: inside;
+
+}
+.menu8 li {
+
+
+    color: blue;
+    display: inline-block;
+}
+.menu8 a:link, menu8 a:visited {
+    line-height: 35px;
+    text-align: center;
+    padding: 10px 5px;
+    color: white;
+    text-decoration: none;
+    font: 13px Arial;
+}
+.menu8 a:hover, .menu8 a:visited {
+    background-color: red;
+
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+
+.menu9 th{
+
+    border-bottom: 1px solid black;
+    padding: 1px;
+
+}
+.menu9 td{
+
+    padding: 1px;
+    text-align: center;
+    padding: 4px;
+
+}
+.menu9{
+
+    font-family: Arial;
+    font-size: 12px;
+
+}
+
+a:link.weekend, a:visited.weekend {
+
+    text-decoration: none;
+    color: #8CA2C1;
+
+}
+
+a:link.workingday, a:visited.workingday {
+
+    text-decoration: none;
+    color: black;
+
+}
+a:link.today, a:visited.today {
+
+    color: red;
+    text-decoration: none;
+
+
+}
+a:hover.workingday, a:hover.weekend, a:hover.today {
+
+    text-decoration: underline;
+
+}
+
