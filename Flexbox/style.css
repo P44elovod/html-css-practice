@@ -1,0 +1,327 @@
+p {
+
+    text-align: center;
+
+}
+
+.menu1 {
+    width: 700px;
+    background: #2696E8;
+    border: 1px solid blue;
+    margin: 0 auto;
+
+}
+.menu1 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.menu1 li {
+    list-style-type: none;
+
+}
+.menu1 a:link, .menu1 a:visited {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: white;
+
+}
+.menu1 a:hover {
+
+    background: white;
+    color: #2696E8;
+
+
+}
+
+.menu2 {
+    width: 700px;
+    background: #2696E8;
+    border: 1px solid blue;
+    margin: 0 auto;
+
+}
+.menu2 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    flex-direction: row-reverse;
+}
+.menu2 li {
+    list-style-type: none;
+
+}
+.menu2 a:link, .menu1 a:visited {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: white;
+
+}
+.menu2 a:hover {
+
+    background: white;
+    color: #2696E8;
+
+
+}
+
+.menu3 {
+    width: 700px;
+    background: #2696E8;
+    border: 1px solid blue;
+    margin: 0 auto;
+
+}
+.menu3 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+.menu3 li {
+    list-style-type: none;
+
+}
+.menu3 a:link, .menu1 a:visited {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: white;
+
+}
+.menu3 a:hover {
+
+    background: white;
+    color: #2696E8;
+
+
+}
+
+.menu4 {
+    width: 700px;
+    background: #2696E8;
+    border: 1px solid blue;
+    margin: 0 auto;
+
+}
+.menu4 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+.menu4 li {
+    list-style-type: none;
+    border: 1px solid blue;
+
+}
+.menu4 a:link, .menu1 a:visited {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+
+}
+.menu4 a:hover {
+
+    background: white;
+    color: #2696E8;
+
+
+}
+
+.menu5 {
+    width: 700px;
+    background: #2696E8;
+    border: 1px solid blue;
+    margin: 0 auto;
+
+}
+.menu5 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+
+}
+.menu5 li {
+    list-style-type: none;
+    border: 1px solid blue;
+
+}
+.menu5 a:link, .menu1 a:visited {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+
+}
+.menu5 a:hover {
+
+    background: white;
+    color: #2696E8;
+
+
+}
+
+.menu6 {
+    width: 700px;
+    background: #2696E8;
+    border: 1px solid blue;
+    margin: 0 auto;
+
+}
+.menu6 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+
+}
+.menu6 li {
+    list-style-type: none;
+    border: 1px solid blue;
+
+}
+.menu6 a:link, .menu1 a:visited {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+
+}
+.menu6 a:hover {
+
+    background: white;
+    color: #2696E8;
+
+
+}
+
+.menu7 {
+    width: 700px;
+    background: #2696E8;
+    border: 1px solid blue;
+    margin: 0 auto;
+
+}
+.menu7 ul {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+
+}
+.menu7 li {
+    list-style-type: none;
+    border: 1px solid blue;
+
+}
+.menu7 a:link, .menu8 a:visited {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+
+}
+.menu7 a:hover {
+
+    background: white;
+    color: #2696E8;
+
+
+}
+
+.menu8 {
+    width: 700px;
+    background: #2696E8;
+    border: 1px solid blue;
+    margin: 0 auto;
+
+}
+.menu8 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.menu8 li {
+    list-style-type: none;
+
+}
+.menu8 a:link, .menu8 a:visited {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+
+}
+.menu8 a:hover {
+
+    background: white;
+    color: #2696E8;
+
+
+}
+
+.menu9 {
+    width: 30%;
+    background: #2696E8;
+    border: 1px solid blue;
+    margin: 0 auto;
+
+}
+.menu9 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+
+
+}
+.menu9 li {
+
+    list-style-type: none;
+    border: 1px solid blue;
+
+}
+.menu9 a:link, .menu9 a:visited {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: white;
+
+}
+.menu9 a:hover {
+
+    background: white;
+    color: #2696E8;
+
+
+}
