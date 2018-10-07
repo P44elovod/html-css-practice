@@ -1,0 +1,33 @@
+.blue, .red, .green {
+
+    width: 50px;
+    height: 50px;
+
+}
+
+.red {
+    border: 1px solid #FF8888;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background: #FF8888;
+
+}
+
+.green {
+    border: 1px solid #4DEE99;
+    position: absolute;
+    top: 90px;
+    left: 90px;
+    background: #4DEE99;
+
+}
+
+.blue {
+    border: 1px solid #7E89EB;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    background: #7E89EB;
+
+}

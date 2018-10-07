@@ -1,0 +1,42 @@
+.big {
+
+    margin: 0 auto;
+    width: 200px;
+    height: 430px;
+    position: relative;
+    border: 1px solid black;
+
+}
+
+.yellow, .red, .green {
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.red {
+    border: 1px solid black;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background: red;
+
+}
+
+.green {
+    border: 1px solid black;
+    position: absolute;
+    top: 270px;
+    left: 50px;
+    background: green;
+}
+
+.yellow {
+    border: 1px solid b;
+    position: absolute;
+    top: 160px;
+    left: 50px;
+    background: yellow;
+
+}

@@ -1,0 +1,30 @@
+.big {
+
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+    position: relative;
+    background: #4DEE99;
+}
+
+.small {
+
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50px;
+    left: 50px;
+    background: white;
+
+}
+
+.small_bottom {
+
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 50px;
+    right: 50px;
+    background: white;
+
+}
