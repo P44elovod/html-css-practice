@@ -1,0 +1,54 @@
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid black;
+    min-width: 600px;
+
+}
+
+.header {
+
+    height: 200px;
+    border: 1px solid black;
+
+}
+
+.content {
+    height: 500px;
+    outline: 1px solid black;
+
+}
+
+.sidebar_right, .sidebar_left {
+
+    width: 25%;
+    height: 500px;
+    outline: 1px solid black;
+    min-width: 200px;
+
+}
+
+.sidebar_left{
+
+    float: left;
+
+}
+
+.sidebar_right {
+
+    float: right;
+
+}
+
+.footer {
+
+    height: 200px;
+    border: 1px solid black;
+
+}
+
+.clearfix {
+
+    clear: both;
+
+}
