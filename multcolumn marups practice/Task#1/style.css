@@ -1,5 +1,49 @@
 .wrapper{
 
+margin: 0 auto;
+width: 1000px;
+border: 1px solid black;
+
+}
+img {
+
+border: 1px solid black;
+height: 200px;
+
+}
+
+.header{
+
+outline: 1px solid black;
+position: relative;
+height: 200px;
+}
+
+.left_sidebar, .right_sidebar {
+
+width: 200px;
+border: 1px solid black;
+margin: 0;
+
+}
+
+.left_sidebar {
+
+float: left;
+
+}
+
+.right_sidebar {
+
+float: right;
+
+}
+
+.content {
+
+outline: 1px solid black;
+margin: 0 250px;
+
 
 
 }
