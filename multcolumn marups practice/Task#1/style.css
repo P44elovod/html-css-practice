@@ -1,3 +1,8 @@
+body {
+margin: 0;
+padding: 0;
+
+}
 .wrapper{
 
 margin: 0 auto;
@@ -5,10 +10,58 @@ width: 1000px;
 border: 1px solid black;
 
 }
-img {
 
+.mainLogo{
+
+position: absolute;
+top: 10px;
+
+}
+.mainLogo img {
+
+width: 200px;
+
+}
+.mainMenu ul {
+
+
+}
+
+.mainMenu li {
+
+display: inline-block;
+
+}
+
+.mainMenu a{
+
+padding: 25px;
+
+}
+
+.mainMenu a:link, .mainMenu a:visited{
+
+
+}
+
+.mainMenu {
+
+position: absolute;
+top: 40px;
+left: 200px;
+width: 530px;
+height: 25px;
 border: 1px solid black;
-height: 200px;
+
+}
+
+.name {
+
+position: absolute;
+top: 10px;
+left: 200px;
+font-size: 19px;
+font-weight: bold;
 
 }
 
@@ -17,13 +70,13 @@ height: 200px;
 outline: 1px solid black;
 position: relative;
 height: 200px;
+position: relative;
 }
 
 .left_sidebar, .right_sidebar {
 
 width: 200px;
-border: 1px solid black;
-margin: 0;
+
 
 }
 
@@ -41,9 +94,22 @@ float: right;
 
 .content {
 
-outline: 1px solid black;
-margin: 0 250px;
+border: 1px solid black;
 
+
+margin: 0 200px;
 
 
 }
+
+.footer{
+margin: 0;
+height: 200px;
+border: 1px solid black;
+
+}
+
+.clearfix{
+    clear: both;
+}
+
