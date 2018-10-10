@@ -1,0 +1,119 @@
+body, h1, h2, p {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+h2 {
+
+    font-size: 16px;
+
+}
+
+.wrapper {
+
+    width: 870px;
+    margin: 0 auto;
+
+}
+
+.header {
+    height: 200px;
+    background: url("bg.jpg") no-repeat;
+    position: relative;
+
+}
+
+.name, .slogan {
+
+    color: white;
+    position: absolute;
+
+}
+
+.name {
+
+    top: 30px;
+    left: 200px;
+    font-size: 27px;
+    font-weight: bold;
+
+}
+
+.slogan {
+
+    top: 60px;
+    left: 230px;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
+.sidebar {
+
+    float: left;
+    width: 200px;
+}
+
+.sidebar img {
+
+    width: 100%;
+
+}
+
+.sidebar div {
+
+    margin-top: 20px;
+    margin-left: 10px;
+
+
+}
+
+.sidebar p {
+    font-size: 13px;
+    text-align: justify;
+
+    margin-bottom: 10px;
+
+}
+
+.content {
+    margin-left: 200px;
+    text-align: justify;
+    padding: 20px;
+
+}
+
+.content h1{
+    font-size: 21px;
+    margin-bottom: 10px;
+
+
+}
+.content h2{
+
+    font-size: 19px;
+    margin: 20px 0 10px 0;
+
+}
+
+.content p{
+
+    margin-bottom: 10px;
+
+}
+.clearfix {
+
+    clear: both;
+
+}
+
+.footer{
+
+    font-size: 12px;
+    margin: 50px 0 10px 418px;
+
+
+
+}
