@@ -1,0 +1,36 @@
+body {
+
+    padding: 0;
+    margin: 0;
+
+}
+
+.wrapper {
+
+    margin: 0 auto;
+    width: 890px;
+
+}
+
+.content {
+
+    float: left;
+    width: 600px;
+
+}
+.sidebar {
+
+    float: right;
+    width: 250px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.mainMenu li {
+    float: left;
+    list-style-type: none;
+    padding-right: 20px;
+
+}
