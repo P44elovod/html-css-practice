@@ -1,0 +1,190 @@
+body, h1, h2, ul {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    background-color: #ebebeb;
+
+}
+
+li {
+
+    list-style-type: none;
+
+}
+
+.center img, .right img {
+
+    width: 100%;
+
+}
+
+.right img {
+
+    margin-top: 10px;
+
+
+}
+
+.mainMenu, .content_wrapper, .bottom_menu {
+
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+}
+
+.header, .footer {
+
+    background-color: #242424;
+
+}
+
+.mainMenu a {
+
+    display: block;
+    font-size: 19px;
+    padding: 0 20px;
+
+
+}
+
+.mainMenu ul {
+    font-size: 0;
+    padding-left: 0;
+}
+
+.right ul, .left ul {
+
+    padding-left: 0;
+    text-align: justify;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.right li, .left li {
+
+    margin-bottom: 10px;
+}
+
+.mainMenu li {
+    display: inline-block;
+    line-height: 50px;
+
+}
+
+.mainMenu a:link, .mainMenu a:visited {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+.mainMenu a:hover, .mainMenu a.active {
+
+    background-color: #585858;
+
+}
+
+.content_wrapper {
+
+    margin: 30px auto;
+    background-color: white;
+
+}
+
+.content_wrapper .left {
+
+    float: left;
+    width: 210px;
+    margin: 20px;
+
+}
+
+.left h2, .right h2 {
+
+    font-size: 17px;
+    margin-bottom: 10px;
+
+}
+
+.center h1 {
+
+    font-size: 21px;
+
+}
+
+.center h2 {
+    margin-top: 20px;
+    font-size: 19px;
+
+}
+
+.content_wrapper .right {
+
+    float: right;
+    width: 210px;
+    margin: 0 20px;
+
+}
+
+.right > div {
+
+    margin-top: 20px;
+
+}
+
+.content_wrapper .center {
+
+    margin: 0 250px;
+    padding-top: 20px;
+}
+
+.content_wrapper .center p {
+
+    text-align: justify;
+
+}
+
+.center p {
+
+    margin: 10px 0;
+
+}
+
+.clearfix {
+    clear: both;
+
+}
+
+.bottom_menu {
+
+
+}
+
+.bottom_menu li {
+
+    display: inline-block;
+
+}
+
+.plate {
+
+    margin-top: 30px;
+    width: 260px;
+    height: 200px;
+    background-color: #ebebeb;
+
+}
+
+.copyright {
+
+    margin-bottom:0 ;
+    margin-left: auto;
+margin-right: auto;
+}
+
