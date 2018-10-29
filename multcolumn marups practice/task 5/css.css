@@ -1,9 +1,16 @@
-body {
+body, .top, .mainMenu, .contentWrapper, .footerContent, .secMenuWrapper {
 
     margin: 0;
     padding: 0;
 
 }
+
+.topWrapper {
+
+    background-color: #EEEEEE;
+
+}
+
 
 .top, .mainMenu, .contentWrapper, .footerContent, .secMenuWrapper {
 
@@ -24,11 +31,69 @@ body {
 .logo {
 
     font-size: 33px;
-float: left;
+    float: left;
 }
 
 .slogan {
 
     line-height: 30px;
+    float: right;
+}
+
+.clearfix {
+
+    clear: both;
+
+}
+
+.mainMenuWrapper {
+
+    border: 1px solid black;
+    padding-bottom: 50px;
+    background-color: #C60304;
+
+}
+
+.mainMenu a {
+
+    display: block;
+    padding: 0 20px;
+    font-size: 19px;
+    line-height: 50px;
+
+
+}
+
+.mainMenu a:link, .mainMenu a:visited {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+.mainMenu a:hover, .mainMenu a.active {
+
+
+    background: #7D0202;
+
+}
+
+.mainMenu {
+    padding-top: 0;
+    background-color: #C60304;
+}
+
+.mainMenu ul {
+    list-style-position: inside;
+    padding-left: 0;
+    margin: 0;
+
+
+}
+
+.mainMenu li {
+    float: left;
+    display: inline-block;
+    background-color: #C60304;
 
 }
